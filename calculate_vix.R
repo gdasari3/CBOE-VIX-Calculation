@@ -86,5 +86,5 @@ far_expiry_date = as.Date("17/06/16","%d/%m/%y")
 Today = as.Date("18/02/16","%d/%m/%y")
 N = 30
 
-r = 0.0035  # took this as 2-year yield rate is 0.70 today. 
+r = 0.007  # took this as 2-year yield rate is 0.70 today. 
 calculate_VIX(r,options_near_calls,options_near_puts,options_far_calls,options_far_puts,F_near,F_far,near_expiry_date,far_expiry_date,Today)
